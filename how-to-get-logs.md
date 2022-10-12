@@ -2,9 +2,9 @@ If you’re troubleshooting an issue with the Agora Chat SDK,Agora support team 
 
 `SDK logs` : Record information about events that have occurred in SDK. They can include errors and warnings as well as informational events.
 
-By default, the SDK outputs three log files, easemob.log, two easemob_Y-m-d_H-M-S.log files each with a default size of 2048 KB(2M). 
-These log files are encoded in UTF-8. 
-The SDK writes the latest logs in easemob.log. 
+By default, the SDK outputs three log files, easemob.log, two easemob_Y-m-d_H-M-S.log files each with a default size of 2048 KB(2M). \n
+These log files are encoded in UTF-8. \n
+The SDK writes the latest logs in easemob.log. \n
 When easemob.log is full, the SDK deletes the log file with the earliest modification time among the other two, renames easemob.log to the name of the current time-dependent file log file, and creates a new easemob.log to record latest logs.
 
 ## How to Collect SDK logs
