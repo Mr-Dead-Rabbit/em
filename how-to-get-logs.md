@@ -1,4 +1,5 @@
 If you’re troubleshooting an issue with the Agora Chat SDK,Agora support team might ask you to send the SDK logs:
+
 `SDK logs` : Record information about events that have occurred in SDK. They can include errors and warnings as well as informational events.
 
 ## How to Collect SDK logs
