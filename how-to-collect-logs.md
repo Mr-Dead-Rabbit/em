@@ -16,7 +16,6 @@ SDK logs can be found in the following directories, depending on your operating 
  ChatClient.getInstance().setDebugMode(true);
 ```
 2. open the logs directory: `/sdcard/Android/data/{package name}/{appkey}/core_log/` which contains the SDK logs.
-3. Select the subdirectories new, pending, and completed and create a .zip file
 
 ### iOS
 #### Simulator 
@@ -24,4 +23,3 @@ SDK logs can be found in the following directories, depending on your operating 
 2. In the Finder on your Mac, select Go > Go to Folder
 3. Paster the path(command + v),and press return
 4. open the logs directory:`{app sandbox path}/Library/Application Support/HyphenateSDK/easemobLog/` which contains the SDK logs.
-5. Select the subdirectories new, pending, and completed and create a .zip file
